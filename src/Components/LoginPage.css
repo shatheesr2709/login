@@ -1,50 +1,64 @@
 .login-form {
-    background-color: rgba(67, 174, 235, 0.833);
+  background-color: transparent;
   padding: 2rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-  margin-left: 37%;
-  margin-right: 37%;
+  margin-left: 27%;
+  margin-right: 47%;
   margin-top: 10%;
- /* padding-top: 10%; */
-  }
-  .page{
-    align-self: center;
-  }
-  body{
-    background-color: rgb(255,238,221);
-    
-  }
-   
-  form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  opacity: 100%;
+
+  /* padding-top: 10%; */
+}
+
+.page {
+  align-self: center;
+}
+
+body {
+  /* background-color: rgb(255,238,221);
+     */
+  background-image: url("/src/Components/pexels-maria-isabella-bernotti-1049298.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   
-  label {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-  }
-  
-  input {
-    padding: 5px;
-    border-radius: 5px;
-    border: 1px solid gray;
-  }
-  
-  button {
-    margin: 10px;
-    padding: 10px 20px;
-    background-color: blue;
-    color: white;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: darkblue;
-  }
-  
+  /* opacity: 0.5; */
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  color: #7209b7;
+  /* background-color: #7209b7; */
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkblue;
+}
